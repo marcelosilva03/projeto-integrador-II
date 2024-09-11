@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Atendimento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulário de Atendimento</h1>
+    
+    <form id="formAtendimento">
+        <label for="agenteSaude">Agente de Saúde:</label>
+        <input type="text" id="agenteSaude" name="agenteSaude"><br>
+
+        <label for="anotacoes">Anotações:</label>
+        <textarea id="anotacoes" name="anotacoes"></textarea><br>
+
+        <button type="button" onclick="coletarDados()">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
